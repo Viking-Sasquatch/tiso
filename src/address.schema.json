@@ -1,0 +1,45 @@
+{
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/address.schema.json",
+    "type": "object",
+    "required": [
+        "zip",
+        "city",
+        "state",
+        "line1"
+    ],
+    "properties": {
+        "zip": {
+            "$id": "#/properties/zip",
+            "type": "string",
+            "pattern": "^(.*)$"
+        },
+        "city": {
+            "$id": "#/properties/city",
+            "type": "string",
+            "pattern": "^(.*)$"
+        },
+        "state": {
+            "$id": "#/properties/state",
+            "type": "string",
+            "pattern": "^(.*)$"
+        },
+        "county": {
+            "$id": "#/properties/county",
+            "type": "string",
+            "default": null,
+            "pattern": "^(.*)$"
+        },
+        "line1": {
+            "$id": "#/properties/line1",
+            "type": "string",
+            "pattern": "^(.*)$"
+        },
+        "line2": {
+            "$id": "#/properties/line2",
+            "type": "string",
+            "default": null
+        }
+    }
+}

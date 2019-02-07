@@ -1,0 +1,13 @@
+{
+    "name": "Peoples National Bank, N.A.",
+    "address": {
+        "zip": "63105",
+        "city": "Clayton",
+        "state": "MO",
+        "county": null,
+        "line1": "101 South Hanley Suite 100",
+        "line2": null
+    },
+    "loanAmount": 140250.50,
+    "loanNumber": "1234567890"
+}

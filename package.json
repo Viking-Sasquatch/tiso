@@ -1,0 +1,31 @@
+{
+  "name": "tiso",
+  "version": "1.0.0",
+  "description": "Title Industry Standards Organization",
+  "main": "index.js",
+  "scripts": {
+    "test": "jsonlint-cli ./src/*.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Viking-Sasquatch/tiso.git"
+  },
+  "keywords": [
+    "tiso",
+    "title",
+    "real",
+    "estate",
+    "standards"
+  ],
+  "author": "Ken Taylor <ken@vsquatch.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Viking-Sasquatch/tiso/issues"
+  },
+  "homepage": "https://github.com/Viking-Sasquatch/tiso#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "jsonlint-cli": "^1.0.1",
+    "validate": "^4.5.1"
+  }
+}
