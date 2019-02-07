@@ -1,51 +1,51 @@
 {
-  "definitions": {},
-  "$schema": "http://json-schema.org/draft-07/schema#",
-  "$id": "http://example.com/root.json",
-  "type": "object",
-  "required": ["name", "address"],
-  "properties": {
-    "name": {
-      "$id": "#/properties/name",
-      "type": "string",
-      "pattern": "^(.*)$"
-    },
-    "address": {
-      "$id": "#/properties/address",
-      "type": "object",
-      "required": ["zip", "city", "state", "line1"],
-      "properties": {
-        "zip": {
-          "$id": "#/properties/address/properties/zip",
-          "type": "string",
-          "pattern": "^(.*)$"
+    "definitions": {},
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "$id": "http://example.com/party.schema.json",
+    "type": "object",
+    "required": ["name", "address"],
+    "properties": {
+        "name": {
+            "$id": "#/properties/name",
+            "type": "string",
+            "pattern": "^(.*)$"
         },
-        "city": {
-          "$id": "#/properties/address/properties/city",
-          "type": "string",
-          "pattern": "^(.*)$"
-        },
-        "state": {
-          "$id": "#/properties/address/properties/state",
-          "type": "string",
-          "pattern": "^(.*)$"
-        },
-        "county": {
-          "$id": "#/properties/address/properties/county",
-          "type": ["string", "null"],
-          "default": null
-        },
-        "line1": {
-          "$id": "#/properties/address/properties/line1",
-          "type": "string",
-          "pattern": "^(.*)$"
-        },
-        "line2": {
-          "$id": "#/properties/address/properties/line2",
-          "type": ["string", "null"],
-          "default": null
+        "address": {
+            "$id": "#/properties/address",
+            "type": "object",
+            "required": ["zip", "city", "state", "line1"],
+            "properties": {
+                "zip": {
+                    "$id": "#/properties/address/properties/zip",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                },
+                "city": {
+                    "$id": "#/properties/address/properties/city",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                },
+                "state": {
+                    "$id": "#/properties/address/properties/state",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                },
+                "county": {
+                    "$id": "#/properties/address/properties/county",
+                    "type": ["string", "null"],
+                    "default": null
+                },
+                "line1": {
+                    "$id": "#/properties/address/properties/line1",
+                    "type": "string",
+                    "pattern": "^(.*)$"
+                },
+                "line2": {
+                    "$id": "#/properties/address/properties/line2",
+                    "type": ["string", "null"],
+                    "default": null
+                }
+            }
         }
-      }
     }
-  }
 }
