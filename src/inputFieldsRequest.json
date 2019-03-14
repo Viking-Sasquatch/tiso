@@ -1,0 +1,14 @@
+{
+  "state": "string",
+  "countyFips": "string",
+  "transactionType": "string",
+  "policyType": "string",
+  "primaryRateName": "string",
+    "recordingDocuments": [{
+      "documentType": "string"
+    },
+     {
+      "documentType": "string"
+    }
+]
+  }
