@@ -1,0 +1,53 @@
+{
+    "state_id": 5,
+    "county_id": 240,
+    "calculationDocIds": [
+        {
+            "name": "Deed",
+            "docId": 1
+        },
+        {
+            "name": "Mortgage",
+            "docId": 443
+        }
+    ],
+    "deedCalculation": {
+        "deedIp1": {
+            "deedIp1Answer": 25000
+        },
+        "deedIp82": {
+            "deedIp82Answer": 10
+        },
+        "deedIp161": {
+            "deedIp161Answer": 2
+        },
+        "deedIp168": {
+            "deedIp168Answer": 1
+        },
+        "deedIp286": {
+            "deedIp286Answer": [
+                1,
+                2,
+                3
+            ]
+        }
+    },
+    "mortgageCalculation": {
+        "mortgateIp99": {
+            "mortgateIp99Answer": 15000
+        },
+        "mortgageIp82": {
+            "mortgateIp82Answer": 5
+        },
+        "mortgageIp161": {
+            "mortgageIp161Answer": 4
+        },
+        "mortgageIp286": {
+            "mortgageIp286Answer": [
+                1,
+                5,
+                6
+            ]
+        }
+    }
+}

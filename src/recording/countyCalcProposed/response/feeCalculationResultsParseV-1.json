@@ -2,218 +2,218 @@
     "status": "Success",
     "code": "200",
     "results": {
-        "fee-details": {
-            "Deed": {
+        "feeDetails": [
+         {
                 "docid": 1,
                 "name": "Deed",
                 "additionalComments": "Note: (District Attorney Real Estate Fraud Prevention Fund) Effective April 1, 2013 the $10.00 fee will be charged on all documents EXCEPT: Documents subject to Documentary Transfer Tax Per Revenue and Taxation code; such as Grant Deeds in connection with sale/purchase of real estate, and documents recorded with the sale/purchase transaction, and NO FEE Documents.",
                 "input": {
-                    "ip1": {
+                    "deedIp1": {
                         "name": "Deed Consideration",
-                        "code": "ip1",
+                        "code": "deedIp1",
                         "value": "25000",
                         "symbol": true,
                         "isHighlight": 1
                     },
-                    "ip82": {
+                    "deedIp82": {
                         "name": "Number of Pages",
-                        "code": "ip82",
+                        "code": "deedIp82",
                         "value": "10",
                         "symbol": false,
                         "isHighlight": 1
                     },
-                    "ip161": {
+                    "deedIp161": {
                         "name": "Number of transactions in the title over 1?",
-                        "code": "ip161",
+                        "code": "deedIp161",
                         "value": "2",
                         "symbol": false,
                         "isHighlight": 0
                     },
-                    "ip168": {
+                    "deedIp168": {
                         "name": "Will the Preliminary Change of Ownership form accompany the document?",
-                        "code": "ip168",
+                        "code": "deedIp168",
                         "value": "Yes",
                         "symbol": false,
                         "isHighlight": 0
                     },
-                    "ip286": {
+                    "deedIp286": {
                         "name": "Fraud Prevention Fund Documents",
-                        "code": "ip286",
+                        "code": "deedIp286",
                         "value": "None,Trustee's Deed Upon Sale,Quitclaim Deed",
                         "symbol": false,
                         "isHighlight": 1
                     }
                 },
                 "output": {
-                    "op2": {
+                    "deedOp2": {
                         "name": "Transfer Tax Amount",
-                        "code": "op2",
+                        "code": "deedOp2",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "27.50"
+                        "value": 27.50
                     },
-                    "op58": {
+                    "deedOp58": {
                         "name": "Page Fee",
-                        "code": "op58",
+                        "code": "deedOp58",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "51.00"
+                        "value": 51.00
                     },
-                    "op161": {
+                    "deedOp161": {
                         "name": "Fee for additional transactions in the same title",
-                        "code": "op161",
+                        "code": "deedOp161",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "28.00"
+                        "value": 28.00
                     },
-                    "op74": {
+                    "deedOp74": {
                         "name": "Real Estate Fraud Prosecution Trust Fund",
-                        "code": "op74",
+                        "code": "deedOp74",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "20.00"
+                        "value": 20.00
                     },
-                    "op163": {
+                    "deedOp163": {
                         "name": "Fee for Preliminary Change of Ownership Report",
-                        "code": "op163",
+                        "code": "deedOp163",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "0.00"
+                        "value": 0.00
                     },
-                    "op1": {
+                    "deedOp1": {
                         "name": "Total Fee",
-                        "code": "op1",
+                        "code": "deedOp1",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "126.50"
+                        "value": 126.50
                     },
-                    "op97": {
+                    "deedOp97": {
                         "name": "Non Standard Fee - If all pages don't meet Standard Format",
-                        "code": "op97",
+                        "code": "deedOp97",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "30.00"
+                        "value": 30.00
                     }
                 }
             },
-            "Mortgage": {
+           {
                 "docid": 433,
                 "name": "Mortgage",
                 "additionalComments": "Note: (District Attorney Real Estate Fraud Prevention Fund) Effective April 1, 2013 the $10.00 fee will be charged on all documents EXCEPT: Documents subject to Documentary Transfer Tax Per Revenue and Taxation code; such as Grant Deeds in connection with sale/purchase of real estate, and documents recorded with the sale/purchase transaction, and NO FEE Documents.",
                 "input": {
-                    "ip99": {
+                    "mortgageIp99": {
                         "name": "New Loan Amount",
-                        "code": "ip99",
+                        "code": "mortgageIp99",
                         "value": "15000",
                         "symbol": true,
                         "isHighlight": 1
                     },
-                    "ip82": {
+                    "mortgageIp82": {
                         "name": "Number of Pages",
-                        "code": "ip82",
+                        "code": "mortgageIp82",
                         "value": "5",
                         "symbol": false,
                         "isHighlight": 1
                     },
-                    "ip161": {
+                    "mortgageIp161": {
                         "name": "Number of transactions in the title over 1?",
-                        "code": "ip161",
+                        "code": "mortgageIp161",
                         "value": "4",
                         "symbol": false,
                         "isHighlight": 0
                     },
-                    "ip286": {
+                    "mortgageIp286": {
                         "name": "Fraud Prevention Fund Documents",
-                        "code": "ip286",
+                        "code": "mortgageIp286",
                         "value": "None,Lien,Release",
                         "symbol": false,
                         "isHighlight": 1
                     }
                 },
                 "output": {
-                    "op58": {
+                    "mortgageOp58": {
                         "name": "Page Fee",
-                        "code": "op58",
+                        "code": "mortgageOp58",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "36.00"
+                        "value": 36.00
                     },
-                    "op161": {
+                    "mortgageOp161": {
                         "name": "Fee for additional transactions in the same title",
-                        "code": "op161",
+                        "code": "mortgageOp161",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "56.00"
+                        "value": 56.00
                     },
-                    "op74": {
+                    "mortgageOp74": {
                         "name": "Real Estate Fraud Prosecution Trust Fund",
-                        "code": "op74",
+                        "code": "mortgageOp74",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "20.00"
+                        "value": 20.00
                     },
-                    "op1": {
+                    "mortgageOp1": {
                         "name": "Total Fee",
-                        "code": "op1",
+                        "code": "mortgageOp1",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "112.00"
+                        "value": 112.00
                     },
-                    "op97": {
+                    "mortgageOp97": {
                         "name": "Non Standard Fee - If all pages don't meet Standard Format",
-                        "code": "op97",
+                        "code": "mortgageOp97",
                         "symbol": true,
                         "isRequired": true,
-                        "value": "15.00"
+                        "value": 15.00
                     }
                 }
             }
-        },
-        "government-taxes": {
-            "Document Type": {
-                "Deed": {
-                    "recording_fee": 51,
-                    "taxes_fee": 27.5,
-                    "other_fee_value": 48,
-                    "total_recording_fee": 126.5,
-                    "potential_value": 30,
-                    "state_tax": 27.5,
-                    "city_tax": 0
+        ],
+        "governmentTaxes": {
+            "documentType": {
+                "deed": {
+                    "recordingFee": 51,
+                    "taxesFee": 27.5,
+                    "otherFee": 48,
+                    "totalRecordingFee": 126.5,
+                    "potentialValue": 30,
+                    "stateTax": 27.5,
+                    "cityTax": 0
                 },
-                "Mortgage": {
-                    "recording_fee": 36,
-                    "taxes_fee": 0,
-                    "other_fee_value": 76,
-                    "total_recording_fee": 112,
-                    "potential_value": 15,
-                    "state_tax": 0,
-                    "city_tax": 0
+                "mortgage": {
+                    "recordingFee": 36,
+                    "taxesFee": 0,
+                    "otherFee": 76,
+                    "totalRecordingFee": 112,
+                    "potentialValue": 15,
+                    "stateTax": 0,
+                    "cityTax": 0
                 }
             },
-            "Total": {
-                "Recording Fee": 87,
-                "Total Taxes": 27.5,
-                "Total Other Fee": 124,
-                "Total Recording Fee": 238.5,
-                "Potential Non Standard Fee": 45
+            "total": {
+                "recordingFee": 87,
+                "totalTaxes": 27.5,
+                "totalOtherFee": 124,
+                "totalRecordingFee": 238.5,
+                "potentialNonStandardFee": 45
             }
         },
-        "Standard HUD-1 Annotation": {
+        "HUD-1Annotation": {
             "1200": {
                 "title": "Government Recording Fee and Transfer Charges"
             },
             "1201": {
                 "title": "Government Recording Charges (from GFE # 7)",
                 "value": 211,
-                "Buyer": "",
-                "Seller": ""
+                "buyer": "",
+                "seller": ""
             },
             "1202": {
-                "Deed": 99,
-                "Mortgage": 112,
-                "Release": "",
-                "Buyer": "",
-                "Seller": ""
+                "deed": 99,
+                "mortgage": 112,
+                "release": "",
+                "buyer": "",
+                "seller": ""
             },
             "1203": {
                 "title": "Transfer Taxes (from GFE # 8)",
@@ -221,36 +221,36 @@
             },
             "1204": {
                 "title": "City/County Tax/Stamps",
-                "Deed": 0,
-                "Mortgage": 0,
+                "deed": 0,
+                "mortgage": 0,
                 "value": "",
-                "Buyer": "",
-                "Seller": ""
+                "buyer": "",
+                "seller": ""
             },
             "1205": {
                 "title": "State tax/stamps ",
-                "Deed": 27.5,
-                "Mortgage": 0,
+                "deed": 27.5,
+                "mortgage": 0,
                 "value": "",
-                "Buyer": "",
-                "Seller": ""
+                "buyer": "",
+                "seller": ""
             },
             "1206": {
                 "title": "Miscellaneous",
                 "value": 0
             }
         },
-        "Jurisdiction_details": [
+        "jurisdictionDetails": [
             {
                 "title": "Yolo",
                 "departmentOffice": "Yolo County Clerk/Recorder",
                 "address1": "625 Court Street Room B01",
                 "address2": "",
                 "city": "Woodland",
-                "zip": "95695",
+                "zip": 95695,
                 "phone": "(530) 666-8130",
                 "checksPayableTo": "Yolo County Clerk/Recorder",
-                "isEfileEnabled": "",
+                "isEfileEnabled": null,
                 "recordingInformationAvailable": "Rec Info Only No Charge",
                 "link": "http://www.yolorecorder.org/recsearch",
                 "maritalState": "Community Property",
