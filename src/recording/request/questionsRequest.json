@@ -1,0 +1,9 @@
+{
+  "accountId": "string",
+  "propertyInfo": {
+    "city": "string",
+    "state": "string",
+    "countyFips": "string"
+  },
+  "transactionType": "string"
+}

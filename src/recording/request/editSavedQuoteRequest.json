@@ -1,0 +1,47 @@
+{
+  "transactionId": "string",
+  "policyInfo": {
+    "salesPrice": "string",
+    "loanAmount": "string",
+    "propertyType": "string",
+    "rateType": "string",
+    "loanType": "string",
+    "propertyOther": [{
+        "description": "string"
+      },
+        {
+        "description": "string"
+      }
+    ],
+    "ownerReissue": {
+      "priorLoanAgeInMonths": "string",
+      "priorLoanAmount": "string"
+    },
+    "lenderReissue": {
+      "priorLoanAgeInMonths": "string",
+      "priorLoanAmount": "string"
+    },
+    "unpaidBalanceAmount": "string"
+  },
+  "applicableQuestions": [
+    {
+      "questionId": "string",
+      "value": "string",
+      "attributes": [{
+        "attribute": "string"},
+        {"attribute": "string"
+      }
+      ]
+    },
+    {
+      "questionId": "string",
+      "value": "string",
+      "attributes": [{
+        "attribute": "string"},
+        {"attribute": "string"
+      }]
+    }
+],
+  "rateId": "string",
+  "underwriterId": "string"
+}

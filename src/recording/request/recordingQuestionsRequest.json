@@ -1,0 +1,12 @@
+{
+    "transactionId": "string",
+    "recordingOfficeId": "string",
+    "recordingDocuments": [
+        {
+            "documentType": "string"
+        },
+        {
+            "documentType": "string"
+        }
+    ]
+}

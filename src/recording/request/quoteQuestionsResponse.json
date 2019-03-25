@@ -1,0 +1,16 @@
+{
+  "accountId": "string",
+  "transactionType": "string",
+  "quoteType": "string",
+  "propertyInfo": {
+    "city": "string",
+    "state": "string",
+    "countyFips": "string"
+  },
+    "recordingDocuments": [{
+      "documentType": "string"
+    },
+     {
+      "documentType": "string"
+    }
+    ]}
