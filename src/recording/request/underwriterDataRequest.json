@@ -1,9 +1,0 @@
-{
-  "accountId": "string",
-  "underwriterId": "string",
-  "state": "string",
-  "countyFips": "string",
-  "transactionType": "string",
-  "policyType": "string",
-  "specialRateName": "string"
-}
