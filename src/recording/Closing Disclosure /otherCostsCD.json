@@ -1,0 +1,78 @@
+{
+        "otherCosts": {
+            "referenceNumber": "8.0",
+            "taxesAndOtherGovernmentFees": {
+                "referenceNumber": "8.1",
+                "cost": {
+                    "referenceNumber": "8.11",
+                    "value": ""
+                },
+                "recordingFees": {
+                    "referenceNumber": "8.2",
+                    "deed": {
+                        "referenceNumber": "8.21",
+                        "value": ""
+                    },
+                    "mortgage": {
+                        "referenceNumber": "8.21",
+                        "value": ""
+                    },
+                    "borrowerPaid": {
+                        "atClosing": {
+                            "referenceNumber": "8.2.2",
+                            "value": ""
+                        },
+                        "beforeClosing": {
+                            "referenceNumber": "8.2.3",
+                            "value": ""
+                        }
+                    },
+                    "sellerPaid": {
+                        "atClosing": {
+                            "referenceNumber": "8.2.4",
+                            "value": ""
+                        },
+                        "beforeClosing": {
+                            "referenceNumber": "8.2.5",
+                            "value": ""
+                        }
+                    },
+                    "paidByOthers": {
+                        "referenceNumber": "8.2.6",
+                        "value": ""
+                    }
+                },
+                "transferTaxes": {
+                    "jurisdiction": {
+                        "referenceNumber": "8.3.1",
+                        "value": ""
+                    },
+                    "borrowerPaid": {
+                        "atClosing": {
+                            "referenceNumber": "8.3.2",
+                            "value": ""
+                        },
+                        "beforeClosing": {
+                            "referenceNumber": "8.3.3",
+                            "value": ""
+                        }
+                    },
+                    "sellerPaid": {
+                        "atClosing": {
+                            "referenceNumber": "8.3.4",
+                            "value": ""
+                        },
+                        "beforeClosing": {
+                            "referenceNumber": "8.3.5",
+                            "value": ""
+                        }
+                    },
+                    "paidByOthers": {
+                        "referenceNumber": "8.3.6",
+                        "value": ""
+                    }
+                }
+            }
+        }
+    }
+}
