@@ -1,0 +1,51 @@
+{
+    "HUD": {
+            "title": "Government Recording Fee and Transfer Charges",
+            "section": "1200",
+            "1201": {
+                "title": "Government Recording Charges (from GFE # 7)",
+                "value": "",
+                "paidFromBorrower": "",
+                "paidFromSeller": ""
+            },
+            "1202":{
+                "value":{
+                    "deed": "",
+                    "mortgage": "",
+                    "release": ""
+                },
+                "paidFromBorrower": "",
+                "paidFromSeller": ""
+            },
+            "1203": {
+                "title": "Transfer Taxes (from GFE # 8)",
+                "value": "",
+                "paidFromBorrower": "",
+                "paidFromSeller": ""
+            },
+            "1204": {
+                "title": "City/County Tax/Stamps",
+                "value": {
+                    "deed": "",
+                    "mortgage": ""
+                },
+                "paidFromBorrower": "",
+                "paidFromSeller": ""
+            },
+            "1205": {
+                "title": "State tax/stamps ",
+                "value": {
+                    "deed": "",
+                    "mortgage": ""
+                },
+                "paidFromBorrower": "",
+                "paidFromSeller": ""
+            },
+            "1206": {
+                "title": "Miscellaneous",
+                "value": "",
+                "paidFromBorrower": "",
+                "paidFromSeller": ""
+            }
+        }
+    }

@@ -1,0 +1,34 @@
+{
+    "accountId": "string",
+    "propertyInfo": {
+        "city": "string",
+        "state": "string",
+        "countyFips": "string"
+    },
+    "policyInfo": {
+        "transactionType": "string",
+        "policyType": "string",
+        "salesPrice": "string",
+        "loanAmount": "string",
+        "propertyType": "string",
+        "rateType": "string",
+        "loanType": "string",
+        "propertyOther": [
+            {
+                "description": ""
+            }
+        ]
+    },
+    "ownerReissue": {
+        "priorLoanAgeInMonths": "string",
+        "priorLoanAmount": "string"
+    },
+    "lenderReissue": {
+        "priorLoanAgeInMonths": "string",
+        "priorLoanAmount": "string"
+    },
+    "unpaidBalanceAmount": "string",
+    "rateId": "string",
+    "underwriterId": "string",
+    "estimatedRecordingFee": "string"
+}

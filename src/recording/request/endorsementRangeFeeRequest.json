@@ -1,0 +1,13 @@
+{
+  "transactionId": "string",
+  "selectedRateId": "string",
+  "endorsementType": "string",
+  "endorsements": [
+    {
+      "endorsementId": "string"
+    },
+    {
+      "endorsementId": "string"
+    }
+  ]
+}

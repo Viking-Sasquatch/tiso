@@ -1,0 +1,7 @@
+{
+  "accountId": "string",
+  "endorsementType": "string",
+  "underwriter": "string",
+  "transactionType": "string",
+  "state": "string"
+}
