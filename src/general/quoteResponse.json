@@ -1,0 +1,170 @@
+{
+  "id": 1234,
+  "description": "Florida Property",
+  "createdOn": "2019-05-09",
+  "createdBy": "lchamp@vikingsasquatch.com",
+  "property": {
+    "address": {
+      "line1": "123 N. Street",
+      "line2": "",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "zip": "12345"
+    },
+    "type": "Single Family",
+    "isPud": false
+  },
+  "loans": [
+    {
+      "transactionType": "Refinance",
+      "loanAmount": 400000.0,
+      "loanType": "Conventional",
+      "loanProduct": "Fixed",
+      "liensToPayoff": 1,
+      "propertyTitleChanges": false,
+      "isCashOut": false
+    }
+  ],
+  "serviceQuoteResults": [
+    {
+      "id": 1122,
+      "type": "Recording Fees & Transfer Taxes",
+      "status": "DATA REQUIRED",
+      "vendor": 1,
+      "vendorName": "CountyCalc",
+      "questionGetURI": "https://recordingquestions.com/questions/1122",
+      "responsePostURI": "https://recordingresponses.com/responses/1122"
+    },
+    {
+      "id": 34234,
+      "type": "Underwriter Rates",
+      "status": "COMPLETE",
+      "vendor": 2,
+      "vendorName": "24|Seven Fees"
+    }
+  ],
+  "standardHUD1Annotation": {
+    "1200": {
+      "title": "Government Recording Fee and Transfer Charges"
+    },
+    "1201": {
+      "title": "Government Recording Charges (from GFE # 7)",
+      "value": "241"
+    },
+    "1202": {
+      "value": {
+        "Deed": "99",
+        "Mortgage": "112",
+        "Release": ""
+      },
+      "paidFromBorrower": "211",
+      "paidFromSeller": ""
+    },
+    "1203": {
+      "title": "Transfer Taxes (from GFE # 8)",
+      "value": "27.5",
+      "paidFromBorrower": "",
+      "paidFromSeller": ""
+    },
+    "1204": {
+      "title": "City/County Tax/Stamps",
+      "value": {
+        "Deed": "0",
+        "Mortgage": "0"
+      },
+      "paidFromBorrower": "0",
+      "paidFromSeller": "0"
+    },
+    "1205": {
+      "title": "State tax/stamps ",
+      "value": {
+        "Deed": "27.5",
+        "Mortgage": "0"
+      },
+      "paidFromBorrower": "0",
+      "paidFromSeller": "27.5"
+    },
+    "1206": {
+      "title": "Miscellaneous",
+      "value": "30"
+    }
+  },
+  "closingDisclosureAnnotation": {
+    "referenceNumber": "0.1",
+    "otherCosts": {
+      "referenceNumber": "8.0",
+      "taxesAndOtherGovernmentFees": {
+        "referenceNumber": "8.1",
+        "total": {
+          "referenceNumber": "8.1.1",
+          "value": "268.5"
+        },
+        "recordingFees": {
+          "referenceNumber": "8.2",
+          "deed": {
+            "referenceNumber": "8.2.1",
+            "value": "99"
+          },
+          "mortgage": {
+            "referenceNumber": "8.2.1",
+            "value": "112"
+          },
+          "borrowerPaid": {
+            "atClosing": {
+              "referenceNumber": "8.2.2",
+              "value": ""
+            },
+            "beforeClosing": {
+              "referenceNumber": "8.2.3",
+              "value": ""
+            }
+          },
+          "sellerPaid": {
+            "atClosing": {
+              "referenceNumber": "8.2.4",
+              "value": ""
+            },
+            "beforeClosing": {
+              "referenceNumber": "8.2.5",
+              "value": ""
+            }
+          },
+          "paidByOthers": {
+            "referenceNumber": "8.2.6",
+            "value": ""
+          }
+        },
+        "transferTaxes": {
+          "jurisdiction": {
+            "referenceNumber": "8.3.1",
+            "value": "27.5"
+          },
+          "borrowerPaid": {
+            "atClosing": {
+              "referenceNumber": "8.3.2",
+              "value": ""
+            },
+            "beforeClosing": {
+              "referenceNumber": "8.3.3",
+              "value": ""
+            }
+          },
+          "sellerPaid": {
+            "atClosing": {
+              "referenceNumber": "8.3.4",
+              "value": ""
+            },
+            "beforeClosing": {
+              "referenceNumber": "8.3.5",
+              "value": ""
+            }
+          },
+          "paidByOthers": {
+            "referenceNumber": "8.3.6",
+            "value": ""
+          }
+        }
+      }
+    }
+  }
+}

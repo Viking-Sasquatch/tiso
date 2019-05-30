@@ -1,0 +1,30 @@
+{
+  "agentFileNumber": "ACME123ABC",
+  "property": {
+    "address": {
+      "line1": "123 N. Street",
+      "line2": "",
+      "city": "Virginia Beach",
+      "state": "VA",
+      "zip": "12345",
+      "county": "Princess Anne"
+    },
+    "type": "Single Family",
+    "isPud": false
+  },
+  "serviceQuotesRequested": [
+    {
+      "type": "Recording Fees & Transfer Taxes",
+      "vendor": 1,
+      "requestData": {}
+    },
+    {
+      "type": "Underwriter Rates",
+      "vendor": 2,
+      "requestData": {
+        "priorPolicyEffectiveDate": "2019-05-09",
+        "priorPolicyAmount": 250000
+      }
+    }
+  ]
+}
