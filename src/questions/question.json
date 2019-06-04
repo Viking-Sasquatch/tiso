@@ -1,0 +1,22 @@
+{
+  "prompt": "Will the Preliminary Change of Ownership form accompany the document?",
+  "id": "5-240-1-168",
+  "answerType": "Integer",
+  "answerDefault": "1",
+  "answerDefaults": ["0", "1"],
+  "type": "Single Select",
+  "selectboxOptions": [
+    {
+      "id": 1,
+      "text": "Yes",
+      "value": "1",
+      "ordinal": 1
+    },
+    {
+      "id": 2,
+      "text": "No",
+      "value": "0",
+      "ordinal": 2
+    }
+  ]
+}

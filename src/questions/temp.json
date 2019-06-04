@@ -1,0 +1,600 @@
+{
+  "documents": [
+    {
+      "id": 1,
+      "type": "Deed",
+      "fieldList": [
+        {
+          "prompt": "Deed Consideration",
+          "id": "5-240-1-1",
+          "type": "Currency"
+        },
+        {
+          "prompt": "Number of Pages",
+          "id": "5-240-1-82",
+          "type": "Number"
+        },
+        {
+          "prompt": "Number of transactions in the title over 1?",
+          "id": "5-240-1-161",
+          "type": "Number"
+        },
+        {
+          "prompt": "Will the Preliminary Change of Ownership form accompany the document?",
+          "id": "5-240-1-168",
+          "type": "Select",
+          "selectboxOptions": [
+            {
+              "id": 1,
+              "text": "Yes",
+              "value": 1,
+              "ordinal": 1
+            },
+            {
+              "id": 2,
+              "text": "No",
+              "value": 0,
+              "ordinal": 2
+            }
+          ]
+        },
+        {
+          "prompt": "Fraud Prevention Fund Documents",
+          "id": "5-240-1-286",
+          "type": "Multi-Select",
+          "selectboxOptions": [
+            {
+              "id": 22,
+              "text": "None",
+              "value": 1,
+              "ordinal": 1
+            },
+            {
+              "id": 23,
+              "text": "Trustee's Deed Upon Sale",
+              "value": 2,
+              "ordinal": 2
+            },
+            {
+              "id": 24,
+              "text": "Quitclaim Deed",
+              "value": 3,
+              "ordinal": 3
+            },
+            {
+              "id": 25,
+              "text": "Construction Trust Deed",
+              "value": 4,
+              "ordinal": 4
+            },
+            {
+              "id": 26,
+              "text": "Lien",
+              "value": 5,
+              "ordinal": 5
+            },
+            {
+              "id": 27,
+              "text": "Release",
+              "value": 6,
+              "ordinal": 6
+            },
+            {
+              "id": 28,
+              "text": "Abstract of Judgment",
+              "value": 7,
+              "ordinal": 7
+            },
+            {
+              "id": 29,
+              "text": "Affidavit",
+              "value": 8,
+              "ordinal": 8
+            },
+            {
+              "id": 30,
+              "text": "Assignment of Deed of Trust",
+              "value": 9,
+              "ordinal": 9
+            },
+            {
+              "id": 31,
+              "text": "CC&R's",
+              "value": 10,
+              "ordinal": 10
+            },
+            {
+              "id": 32,
+              "text": "Declaration of Homestead",
+              "value": 11,
+              "ordinal": 11
+            },
+            {
+              "id": 33,
+              "text": "Easement",
+              "value": 12,
+              "ordinal": 12
+            },
+            {
+              "id": 34,
+              "text": "Lot Line Adjustment",
+              "value": 13,
+              "ordinal": 13
+            },
+            {
+              "id": 35,
+              "text": "Mechanic's Lien",
+              "value": 14,
+              "ordinal": 14
+            },
+            {
+              "id": 36,
+              "text": "Modification for Deed of Trust",
+              "value": 15,
+              "ordinal": 15
+            },
+            {
+              "id": 37,
+              "text": "Notice of Completion",
+              "value": 16,
+              "ordinal": 16
+            },
+            {
+              "id": 38,
+              "text": "Notice of Default",
+              "value": 17,
+              "ordinal": 17
+            },
+            {
+              "id": 39,
+              "text": "Notice of Sale",
+              "value": 18,
+              "ordinal": 18
+            },
+            {
+              "id": 40,
+              "text": "Reconveyance",
+              "value": 19,
+              "ordinal": 19
+            },
+            {
+              "id": 41,
+              "text": "Request for Notice",
+              "value": 20,
+              "ordinal": 20
+            },
+            {
+              "id": 42,
+              "text": "Rescission",
+              "value": 21,
+              "ordinal": 21
+            },
+            {
+              "id": 43,
+              "text": "Subordination Agreement",
+              "value": 22,
+              "ordinal": 22
+            },
+            {
+              "id": 44,
+              "text": "Substitution of Trustee",
+              "value": 23,
+              "ordinal": 23
+            },
+            {
+              "id": 45,
+              "text": "Amended Deed of Trust",
+              "value": 24,
+              "ordinal": 24
+            },
+            {
+              "id": 46,
+              "text": "Assignment of Lease",
+              "value": 25,
+              "ordinal": 25
+            },
+            {
+              "id": 47,
+              "text": "Assignment of Rents",
+              "value": 26,
+              "ordinal": 26
+            },
+            {
+              "id": 48,
+              "text": "Lease",
+              "value": 27,
+              "ordinal": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 433,
+      "type": "Mortgage",
+      "fieldList": [
+        {
+          "prompt": "New Loan Amount",
+          "id": "5-240-433-99",
+          "type": "Currency"
+        },
+        {
+          "prompt": "Number of Pages",
+          "id": "5-240-433-82",
+          "type": "Number"
+        },
+        {
+          "prompt": "Number of transactions in the title over 1?",
+          "id": "5-240-433-161",
+          "type": "Number"
+        },
+        {
+          "prompt": "Fraud Prevention Fund Documents",
+          "id": "5-240-433-286",
+          "type": "Multi-Select",
+          "selectboxOptions": [
+            {
+              "id": 22,
+              "text": "None",
+              "value": 1,
+              "ordinal": 1
+            },
+            {
+              "id": 23,
+              "text": "Trustee's Deed Upon Sale",
+              "value": 2,
+              "ordinal": 2
+            },
+            {
+              "id": 24,
+              "text": "Quitclaim Deed",
+              "value": 3,
+              "ordinal": 3
+            },
+            {
+              "id": 25,
+              "text": "Construction Trust Deed",
+              "value": 4,
+              "ordinal": 4
+            },
+            {
+              "id": 26,
+              "text": "Lien",
+              "value": 5,
+              "ordinal": 5
+            },
+            {
+              "id": 27,
+              "text": "Release",
+              "value": 6,
+              "ordinal": 6
+            },
+            {
+              "id": 28,
+              "text": "Abstract of Judgment",
+              "value": 7,
+              "ordinal": 7
+            },
+            {
+              "id": 29,
+              "text": "Affidavit",
+              "value": 8,
+              "ordinal": 8
+            },
+            {
+              "id": 30,
+              "text": "Assignment of Deed of Trust",
+              "value": 9,
+              "ordinal": 9
+            },
+            {
+              "id": 31,
+              "text": "CC&R's",
+              "value": 10,
+              "ordinal": 10
+            },
+            {
+              "id": 32,
+              "text": "Declaration of Homestead",
+              "value": 11,
+              "ordinal": 11
+            },
+            {
+              "id": 33,
+              "text": "Easement",
+              "value": 12,
+              "ordinal": 12
+            },
+            {
+              "id": 34,
+              "text": "Lot Line Adjustment",
+              "value": 13,
+              "ordinal": 13
+            },
+            {
+              "id": 35,
+              "text": "Mechanic's Lien",
+              "value": 14,
+              "ordinal": 14
+            },
+            {
+              "id": 36,
+              "text": "Modification for Deed of Trust",
+              "value": 15,
+              "ordinal": 15
+            },
+            {
+              "id": 37,
+              "text": "Notice of Completion",
+              "value": 16,
+              "ordinal": 16
+            },
+            {
+              "id": 38,
+              "text": "Notice of Default",
+              "value": 17,
+              "ordinal": 17
+            },
+            {
+              "id": 39,
+              "text": "Notice of Sale",
+              "value": 18,
+              "ordinal": 18
+            },
+            {
+              "id": 40,
+              "text": "Reconveyance",
+              "value": 19,
+              "ordinal": 19
+            },
+            {
+              "id": 41,
+              "text": "Request for Notice",
+              "value": 20,
+              "ordinal": 20
+            },
+            {
+              "id": 42,
+              "text": "Rescission",
+              "value": 21,
+              "ordinal": 21
+            },
+            {
+              "id": 43,
+              "text": "Subordination Agreement",
+              "value": 22,
+              "ordinal": 22
+            },
+            {
+              "id": 44,
+              "text": "Substitution of Trustee",
+              "value": 23,
+              "ordinal": 23
+            },
+            {
+              "id": 45,
+              "text": "Amended Deed of Trust",
+              "value": 24,
+              "ordinal": 24
+            },
+            {
+              "id": 46,
+              "text": "Assignment of Lease",
+              "value": 25,
+              "ordinal": 25
+            },
+            {
+              "id": 47,
+              "text": "Assignment of Rents",
+              "value": 26,
+              "ordinal": 26
+            },
+            {
+              "id": 48,
+              "text": "Lease",
+              "value": 27,
+              "ordinal": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "type": "All other Document",
+      "fieldList": [
+        {
+          "prompt": "Number of Pages",
+          "id": "5-240-2-82",
+          "type": "Number"
+        },
+        {
+          "prompt": "Number of transactions in the title over 1?",
+          "id": "5-240-2-161",
+          "type": "Number"
+        },
+        {
+          "prompt": "Fraud Prevention Fund Documents",
+          "id": "5-240-2-286",
+          "type": "Multi-Select",
+          "selectboxOptions": [
+            {
+              "id": 22,
+              "text": "None",
+              "value": 1,
+              "ordinal": 1
+            },
+            {
+              "id": 23,
+              "text": "Trustee's Deed Upon Sale",
+              "value": 2,
+              "ordinal": 2
+            },
+            {
+              "id": 24,
+              "text": "Quitclaim Deed",
+              "value": 3,
+              "ordinal": 3
+            },
+            {
+              "id": 25,
+              "text": "Construction Trust Deed",
+              "value": 4,
+              "ordinal": 4
+            },
+            {
+              "id": 26,
+              "text": "Lien",
+              "value": 5,
+              "ordinal": 5
+            },
+            {
+              "id": 27,
+              "text": "Release",
+              "value": 6,
+              "ordinal": 6
+            },
+            {
+              "id": 28,
+              "text": "Abstract of Judgment",
+              "value": 7,
+              "ordinal": 7
+            },
+            {
+              "id": 29,
+              "text": "Affidavit",
+              "value": 8,
+              "ordinal": 8
+            },
+            {
+              "id": 30,
+              "text": "Assignment of Deed of Trust",
+              "value": 9,
+              "ordinal": 9
+            },
+            {
+              "id": 31,
+              "text": "CC&R's",
+              "value": 10,
+              "ordinal": 10
+            },
+            {
+              "id": 32,
+              "text": "Declaration of Homestead",
+              "value": 11,
+              "ordinal": 11
+            },
+            {
+              "id": 33,
+              "text": "Easement",
+              "value": 12,
+              "ordinal": 12
+            },
+            {
+              "id": 34,
+              "text": "Lot Line Adjustment",
+              "value": 13,
+              "ordinal": 13
+            },
+            {
+              "id": 35,
+              "text": "Mechanic's Lien",
+              "value": 14,
+              "ordinal": 14
+            },
+            {
+              "id": 36,
+              "text": "Modification for Deed of Trust",
+              "value": 15,
+              "ordinal": 15
+            },
+            {
+              "id": 37,
+              "text": "Notice of Completion",
+              "value": 16,
+              "ordinal": 16
+            },
+            {
+              "id": 38,
+              "text": "Notice of Default",
+              "value": 17,
+              "ordinal": 17
+            },
+            {
+              "id": 39,
+              "text": "Notice of Sale",
+              "value": 18,
+              "ordinal": 18
+            },
+            {
+              "id": 40,
+              "text": "Reconveyance",
+              "value": 19,
+              "ordinal": 19
+            },
+            {
+              "id": 41,
+              "text": "Request for Notice",
+              "value": 20,
+              "ordinal": 20
+            },
+            {
+              "id": 42,
+              "text": "Rescission",
+              "value": 21,
+              "ordinal": 21
+            },
+            {
+              "id": 43,
+              "text": "Subordination Agreement",
+              "value": 22,
+              "ordinal": 22
+            },
+            {
+              "id": 44,
+              "text": "Substitution of Trustee",
+              "value": 23,
+              "ordinal": 23
+            },
+            {
+              "id": 45,
+              "text": "Amended Deed of Trust",
+              "value": 24,
+              "ordinal": 24
+            },
+            {
+              "id": 46,
+              "text": "Assignment of Lease",
+              "value": 25,
+              "ordinal": 25
+            },
+            {
+              "id": 47,
+              "text": "Assignment of Rents",
+              "value": 26,
+              "ordinal": 26
+            },
+            {
+              "id": 48,
+              "text": "Lease",
+              "value": 27,
+              "ordinal": 27
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "type": "UCC",
+      "fieldList": [
+        {
+          "prompt": "Number of Pages",
+          "id": "5-240-5-82",
+          "type": "Number"
+        }
+      ]
+    }
+  ]
+}
+

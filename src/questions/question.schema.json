@@ -1,0 +1,162 @@
+{
+  "definitions": {},
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "http://example.com/root.json",
+  "type": "object",
+  "title": "The Root Schema",
+  "required": [
+    "prompt",
+    "id",
+    "valueType",
+    "type"
+  ],
+  "properties": {
+    "prompt": {
+      "$id": "#/properties/prompt",
+      "type": "string",
+      "title": "The Prompt Schema",
+      "default": "",
+      "examples": [
+        "Will the Preliminary Change of Ownership form accompany the document?"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "id": {
+      "$id": "#/properties/id",
+      "type": "string",
+      "title": "The Id Schema",
+      "default": "",
+      "examples": [
+        "5-240-1-168"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "answerType": {
+      "$id": "#/properties/answerType",
+      "type": "string",
+      "title": "The Answer Type Schema",
+      "default": "",
+      "examples": [
+        "Integer",
+        "Number",
+        "Boolean",
+        "String",
+        "Integer Array",
+        "Number Array",
+        "Boolean Array",
+        "String Array"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "answerDefault": {
+      "$id": "#/properties/answerDefault",
+      "type": "string",
+      "title": "The Answerdefault Schema",
+      "default": "",
+      "examples": [
+        "1"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "answerDefaults": {
+      "$id": "#/properties/answerDefaults",
+      "type": "array",
+      "title": "The Answerdefaults Schema",
+      "default": null,
+      "items": {
+        "$id": "#/properties/answerDefaults/items",
+        "type": "string",
+        "title": "The Items Schema",
+        "default": "",
+        "examples": [
+          "0",
+          "1"
+        ],
+        "pattern": "^(.*)$"
+      }
+    },
+    "type": {
+      "$id": "#/properties/type",
+      "type": "string",
+      "title": "The Type Schema",
+      "default": "String",
+      "examples": [
+        "Single Select",
+        "Multi Select",
+        "Integer",
+        "Number",
+        "String",
+        "Boolean"
+      ],
+      "pattern": "^(.*)$"
+    },
+    "selectboxOptions": {
+      "$id": "#/properties/selectboxOptions",
+      "type": "array",
+      "title": "The Selectboxoptions Schema",
+      "default": null,
+      "items": {
+        "$id": "#/properties/selectboxOptions/items",
+        "type": "object",
+        "title": "The Items Schema",
+        "required": [
+          "id",
+          "text",
+          "value",
+          "ordinal"
+        ],
+        "properties": {
+          "id": {
+            "$id": "#/properties/selectboxOptions/items/properties/id",
+            "type": "integer",
+            "title": "The Id Schema",
+            "default": 0,
+            "examples": [
+              1
+            ]
+          },
+          "text": {
+            "$id": "#/properties/selectboxOptions/items/properties/text",
+            "type": "string",
+            "title": "The Text Schema",
+            "default": "",
+            "examples": [
+              "Yes"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "value": {
+            "$id": "#/properties/selectboxOptions/items/properties/value",
+            "type": "string",
+            "title": "The Value Schema",
+            "default": "",
+            "examples": [
+              "1"
+            ],
+            "pattern": "^(.*)$"
+          },
+          "ordinal": {
+            "$id": "#/properties/selectboxOptions/items/properties/ordinal",
+            "type": "integer",
+            "title": "The Ordinal Schema",
+            "default": 0,
+            "examples": [
+              1,
+              2,
+              3
+            ]
+          },
+          "default": {
+            "$id": "#/properties/selectboxOptions/items/properties/default",
+            "type": "boolean",
+            "title": "The Default Schema",
+            "default": false,
+            "examples": [
+              true
+            ]
+          }
+        }
+      }
+    }
+  }
+}
