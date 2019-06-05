@@ -29,7 +29,7 @@
   "loanAmount": 12345,
   "loanAmorizationType": "Fixed",
   "unpaidBalance": 0,
-  "purchasePrice": null
+  "purchasePrice": 800000
   },
   "policiesRequested": [
     {
