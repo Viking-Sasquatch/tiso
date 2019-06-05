@@ -1,5 +1,8 @@
 {
   "agentFileNumber": "ACME123ABC",
+  "selectedAccountId": "0a9feeb3-41d5-11e9-92a8-0242ac1b0002",
+  "transactionFileCreated": "8/18/2016",
+  "transactionFileType": "Refinance",
   "property": {
     "address": {
       "line1": "123 N. Street",
@@ -9,22 +12,57 @@
       "zip": "12345",
       "county": "Princess Anne"
     },
+    "unitType": "string",
+    "APN": "string",
+    "occupancy": "primary",
+    "estimatedValue": 1100000,
+    "mortgageAmount": 800000,
     "type": "Single Family",
-    "isPud": false
+    "isPud": false,
+    "yearBuilt": 1950,
+    "sqFootage": 2500,
+    "lotSize": 2
   },
+  "loanInfo":{
+  "loanType": "Conventional",
+  "lienType": "String",
+  "loanAmount": 12345,
+  "loanAmorizationType": "Fixed",
+  "unpaidBalance": 0,
+  "purchasePrice": 800000
+  },
+  "policiesRequested": [
+    {
+      "type": "lenders",
+      "policyAmount": 800000,
+      "useSimultaneousRates": true,
+      "useCommonEndorsements": true,
+      "priorPolicyAmount": 250000,
+      "priorPolicyEffectiveDate": "2019-05-09",
+      "effectiveDate": "2019-05-10"
+    },
+    {
+      "type": "owners",
+      "policyAmount": 1100000,
+      "useSimultaneousRates": true,
+      "useCommonEndorsements": true,
+      "priorPolicyEffectiveDate": "2019-05-09",
+      "priorPolicyAmount": 250000,
+      "effectiveDate": "2019-05-10"
+    }
+  ],
   "serviceQuotesRequested": [
     {
       "type": "Recording Fees & Transfer Taxes",
-      "vendor": 1,
-      "requestData": {}
+      "vendor": 1
     },
     {
       "type": "Underwriter Rates",
-      "vendor": 2,
-      "requestData": {
-        "priorPolicyEffectiveDate": "2019-05-09",
-        "priorPolicyAmount": 250000
-      }
+      "vendor": 2
+    },
+    {
+      "type": "Settlement Fees",
+      "vendor": 3
     }
   ]
 }
