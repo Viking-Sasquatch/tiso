@@ -1,7 +1,9 @@
 {
   "transactionFile": {
     "agentFileNumber": "ACME123ABC",
+    "lenderFileNumber": "BANK12345",
     "selectedAccountId": "0a9feeb3-41d5-11e9-92a8-0242ac1b0002",
+    "selectedBranch": "6a9feeb3-41d5-11e9-92a8-0242ac1b0555",
     "transactionFileCreated": "8/18/2016",
     "transactionFileType": "Refinance",
     "property": {
