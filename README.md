@@ -4,39 +4,22 @@ The TISO (Title Industry Standards Organization) project aims to provide a stand
 
 ## Getting Started
 
-These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
-
-Dates used in the JSON are in [RFC3339](https://tools.ietf.org/html/rfc3339) format.
-
 ### Prerequisites
 
-What things you need to install the software and how to install them
+- [NodeJS](https://nodejs.org/en/) (10.16 or higher)
 
-```
-Give examples
-```
+### Installation
 
-### Installing
+To get started with TISO, run the following from the commandline:
 
-A step by step series of examples that tell you how to get a development env running
+1. Clone the repo (`git clone git@github.com:Viking-Sasquatch/tiso.git`)
+2. Install all of the node packages (`npm install`)
 
-Say what the step will be
+To get started with TISO, just clone this repo and review the json examples and schemas in the `src` folder.
 
-```
-Give the example
-```
-
-And repeat
-
-```
-until finished
-```
-
-End with an example of getting some data out of the system or using it for a little demo
 
 ## Running the tests
 
-Explain how to run the automated tests for this system
 
 To validate JSON files individually, install jsonlint:
 
@@ -49,26 +32,6 @@ Validate a file like this:
 ```
 jsonlint myfile.json
 ```
-
-### Break down into end to end tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-### And coding style tests
-
-Explain what these tests test and why
-
-```
-Give an example
-```
-
-## Deployment
-
-Add additional notes about how to deploy this on a live system
 
 ## Built With
 
@@ -88,6 +51,7 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 ## Authors
 
 - **Ken Taylor** - _Initial work_ - [Ken Taylor](https://github.com/switchspan)
+- **Luke Champ** - _Additional schemas_ - [Luke Champ](https://github.com/thechampl)
 
 <!-- See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project. -->
 
@@ -95,8 +59,3 @@ We use [SemVer](http://semver.org/) for versioning. For the versions available, 
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
 
-## Acknowledgments
-
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
