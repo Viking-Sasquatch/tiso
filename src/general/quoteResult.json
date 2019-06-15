@@ -1,0 +1,19 @@
+{
+    "quoteId": "TN-1000",
+    "transactionFilenumber": "1234243",
+    "property": {
+        "address": {}
+    },
+    "services": [
+        {
+            "type": "Recording Fees",
+            "vendor": "CountyCalc",
+            "vendorUuid": "d08c7931-8f7f-11e9-b347-0242ac120002",
+            "isAffiliate": true,
+            "lineItems": [
+                { "name": "Deed", "amount": 50, "split": { "buyer": 100, "seller": 0 } },
+                { "name": "UCC", "amount": 45, "split": { "buyer": 100, "seller": 0 } }
+            ]
+        }
+    ]
+}
