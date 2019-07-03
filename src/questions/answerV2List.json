@@ -1,0 +1,37 @@
+{
+    "answers": [
+        {
+            "id": "9-361-1-1",
+            "value": 250000,
+            "values": null,
+            "type": "Integer",
+            "documentType": "Deed",
+            "documentTypeId": 1,
+            "serviceQuoteId": 7
+        },
+        {
+            "id": "9-361-1-82",
+            "value": 10,
+            "values": null,
+            "type": "Integer",
+            "documentType": "Deed",
+            "serviceQuoteId": 7
+        },
+        {
+            "id": "9-361-1-11",
+            "value": 2,
+            "values": null,
+            "type": "Integer",
+            "documentType": "Deed",
+            "serviceQuoteId": 7
+        },
+        {
+            "id": "9-361-1-219",
+            "value": 1,
+            "values": null,
+            "type": "Integer",
+            "documentType": "Deed",
+            "serviceQuoteId": 7
+        }
+    ]
+}

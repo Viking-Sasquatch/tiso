@@ -1,0 +1,23 @@
+{
+    "type": "Recording Fees",
+    "vendor": "County Calc",
+    "lineItems": [
+        {
+            "name": "Transfer Tax Amount",
+            "amount": "370.00"
+        },
+        {
+            "name": "Page Fee",
+            "amount": "28.00"
+        },
+        {
+            "name": "Total Fee",
+            "amount": "398.00"
+        }
+    ],
+    "vendorUuid": "70658770-8325-11e9-a136-0242ac130002",
+    "isAffiliate": false,
+    "vendorQuoteData": {
+        "specificQuoteDataFromIntegration": "Data Here"
+    }
+}
