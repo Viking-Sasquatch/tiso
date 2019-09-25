@@ -1,78 +1,40 @@
 {
   "transactionFile": {
-    "agentFileNumber": "ACME123ABC",
-    "lenderFileNumber": "BANK12345",
-    "selectedAccountId": "0a9feeb3-41d5-11e9-92a8-0242ac1b0002",
-    "selectedBranch": "6a9feeb3-41d5-11e9-92a8-0242ac1b0555",
-    "selectedUnderwriterId": "4e7cedbe-404c-11e9-9a44-0242ac170002",
-    "transactionFileCreated": "8/18/2016",
-    "transactionFileType": "Refinance",
-    "propertyType": "Residential",
-    "appraisalForm": 1004,
-    "appraisalType": "ALL",
+    "agentFileNumber": "TN-9-25-1",
+    "selectedAccountId": "cc547f00-685d-11e9-b365-0242ac140002",
+    "transactionFileCreated": "9/18/2019",
+    "transactionFileType": "{{transactionType}}",
     "property": {
       "address": {
-        "line1": "123 N. Street",
+         "line1": "123 Test St",
         "line2": "",
-        "city": "Virginia Beach",
-        "state": "VA",
-        "zip": "12345",
-        "county": "Princess Anne"
+        "city": "{{city}}",
+       "state": "{{state}}",
+       "zip": "{{zip}}",
+		"county":"{{county}}"
       },
-      "unitType": "string",
-      "APN": "string",
-      "occupancy": "primary",
-      "estimatedValue": 1100000,
-      "mortgageAmount": 800000,
-      "type": "Single Family",
-      "isPud": false,
-      "yearBuilt": 1950,
-      "sqFootage": 2500,
-      "lotSize": 2
+      "propertyType": "{{propertyType}}",
+      "isPud": false
     },
-    "loanInfo": {
+   "loanInfo": {
       "loanType": "Conventional",
-      "lienType": "String",
+      "lienType": "",
       "loanAmount": 12345,
-      "loanAmorizationType": "Fixed",
-      "unpaidBalance": 0,
-      "purchasePrice": 800000
-    },
-    "policiesRequested": [
-      {
-        "name": "ALTA Lenders Policy",
-        "type": "lenders",
-        "policyAmount": 800000,
-        "useSimultaneousRates": true,
-        "useCommonEndorsements": true,
-        "priorPolicyAmount": 250000,
-        "priorPolicyEffectiveDate": "2019-05-09",
-        "effectiveDate": "2019-05-10"
-      },
-      {
-        "name": "ALTA Owner's Policy",
-        "type": "owners",
-        "policyAmount": 1100000,
-        "useSimultaneousRates": true,
-        "useCommonEndorsements": true,
-        "priorPolicyEffectiveDate": "2019-05-09",
-        "priorPolicyAmount": 250000,
-        "effectiveDate": "2019-05-10"
-      }
-    ]
+      "salesAmount": 200000
+    }
   },
   "serviceQuotesRequested": [
     {
       "type": "Recording Fees & Transfer Taxes",
-      "vendor": 1
+      "vendor": 12
     },
-    {
-      "type": "Underwriter Rates",
-      "vendor": 2
-    },
-    {
+     {
       "type": "Settlement Fees",
-      "vendor": 3
+      "vendor": 11
+    },
+    { 
+    	"type": "Underwriter Rates",
+      "vendor": 10
     }
-  ]
+    ]
 }
