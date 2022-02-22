@@ -4,8 +4,12 @@
     "lenderFileNumber": "BANK12345",
     "selectedAccountId": "0a9feeb3-41d5-11e9-92a8-0242ac1b0002",
     "selectedBranch": "6a9feeb3-41d5-11e9-92a8-0242ac1b0555",
+    "selectedUnderwriterId": "4e7cedbe-404c-11e9-9a44-0242ac170002",
     "transactionFileCreated": "8/18/2016",
     "transactionFileType": "Refinance",
+    "propertyType": "Residential",
+    "appraisalForm": 1004,
+    "appraisalType": "ALL",
     "property": {
       "address": {
         "line1": "123 N. Street",
@@ -36,6 +40,7 @@
     },
     "policiesRequested": [
       {
+        "name": "ALTA Lenders Policy",
         "type": "lenders",
         "policyAmount": 800000,
         "useSimultaneousRates": true,
@@ -45,6 +50,7 @@
         "effectiveDate": "2019-05-10"
       },
       {
+        "name": "ALTA Owner's Policy",
         "type": "owners",
         "policyAmount": 1100000,
         "useSimultaneousRates": true,
