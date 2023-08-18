@@ -23,9 +23,7 @@
     "url": "https://github.com/Viking-Sasquatch/tiso/issues"
   },
   "homepage": "https://github.com/Viking-Sasquatch/tiso#readme",
-  "dependencies": {},
   "devDependencies": {
-    "jsonlint-cli": "^1.0.1",
-    "validate": "^4.5.1"
+    "jsonlint": "^1.6.3"
   }
 }
