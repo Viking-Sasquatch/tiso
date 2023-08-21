@@ -4,7 +4,7 @@
   "description": "Title Industry Standards Organization",
   "main": "index.js",
   "scripts": {
-    "test": "jsonlint-cli ./src/*.json"
+    "lint": "eslint --ext .json src/** "
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   },
   "homepage": "https://github.com/Viking-Sasquatch/tiso#readme",
   "devDependencies": {
-    "jsonlint": "^1.6.3"
+    "eslint": "^8.47.0",
+    "eslint-plugin-json": "^3.1.0"
   }
 }
